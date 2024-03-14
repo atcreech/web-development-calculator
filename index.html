@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/calculator.css">
+    <script src="./js/calc-buttons.js" defer="true"></script>
+</head>
+<body>
+    <section id="calculator">
+        <input id="calc-text" type="text">
+        <div class="button-row">
+            <button id="flip-sign-button">+/-</button>
+            <button class="calc-button-number" id="seven-button">7</button>
+            <button class="calc-button-number" id="eight-button">8</button>
+            <button class="calc-button-number" id="nine-button">9</button>
+            <button class="calc-button-operation" id="divide-button">/</button>
+        </div>
+        <div class="button-row">
+            <button id="power">x<sup>y</sup></button>
+            <button class="calc-button-number" id="four-button">4</button>
+            <button class="calc-button-number" id="five-button">5</button>
+            <button class="calc-button-number" id="six-button">6</button>
+            <button class="calc-button-operation" id="times-button">X</button>
+        </div>
+        <div class="button-row">
+            <button id="factorial">x!</button>
+            <button class="calc-button-number" id="one-button">1</button>
+            <button class="calc-button-number" id="two-button">2</button>
+            <button class="calc-button-number" id="three-button">3</button>
+            <button class="calc-button-operation" id="minus-button">-</button>
+        </div>
+        <div class="button-row">
+            <button id="one-over"><sup>1</sup>/x</button>
+            <button class="calc-button-clear" id="clear-button">C</button>
+            <button class="calc-button-number" id="zero-button">0</button>
+            <button class="calc-button-dot" id="dot-button">.</button>
+            <button class="calc-button-operation" id="plus-button">+</button>
+        </div>
+        <button id="equals-button">=</button>
+    </section>
+    <section id="history">
+        <div id="history-text"></div>
+        <button id="clear-history">Clear History</button>
+    </section>
+</body>
+</html>
